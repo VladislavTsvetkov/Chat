@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		1CA3D39ABF3FFFB1EF5C1DB2 /* Pods_Chat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD217C9D9C651C2DA5F8434B /* Pods_Chat.framework */; };
+		9E9FD90D220CCCEC00A4B896 /* MeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9FD90C220CCCEC00A4B896 /* MeVC.swift */; };
+		9E9FD90F220CD26A00A4B896 /* CreatePostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9FD90E220CD26A00A4B896 /* CreatePostVC.swift */; };
 		9EB3582121FCED4A007D423A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB3582021FCED4A007D423A /* AppDelegate.swift */; };
 		9EB3582321FCED4A007D423A /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB3582221FCED4A007D423A /* FeedVC.swift */; };
 		9EB3582521FCED4A007D423A /* GroupsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB3582421FCED4A007D423A /* GroupsVC.swift */; };
@@ -26,6 +28,8 @@
 /* Begin PBXFileReference section */
 		4C744F5B0C28E9452A298572 /* Pods-Chat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Chat/Pods-Chat.debug.xcconfig"; sourceTree = "<group>"; };
 		90FD66D7587F2E9A1C5A72CA /* Pods-Chat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chat.release.xcconfig"; path = "Pods/Target Support Files/Pods-Chat/Pods-Chat.release.xcconfig"; sourceTree = "<group>"; };
+		9E9FD90C220CCCEC00A4B896 /* MeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeVC.swift; sourceTree = "<group>"; };
+		9E9FD90E220CD26A00A4B896 /* CreatePostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostVC.swift; sourceTree = "<group>"; };
 		9EB3581D21FCED4A007D423A /* Chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EB3582021FCED4A007D423A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9EB3582221FCED4A007D423A /* FeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
@@ -107,6 +111,8 @@
 				9EB3582421FCED4A007D423A /* GroupsVC.swift */,
 				9EB3583F21FDC015007D423A /* AuthVC.swift */,
 				9EB3584121FDC0E6007D423A /* LoginVC.swift */,
+				9E9FD90C220CCCEC00A4B896 /* MeVC.swift */,
+				9E9FD90E220CD26A00A4B896 /* CreatePostVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -279,12 +285,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E9FD90D220CCCEC00A4B896 /* MeVC.swift in Sources */,
 				9EB3584021FDC015007D423A /* AuthVC.swift in Sources */,
 				9EB3582521FCED4A007D423A /* GroupsVC.swift in Sources */,
 				9EB3584221FDC0E6007D423A /* LoginVC.swift in Sources */,
 				9EB3584821FDCA46007D423A /* AuthService.swift in Sources */,
 				9EB3582121FCED4A007D423A /* AppDelegate.swift in Sources */,
 				9EB3584621FDC902007D423A /* ShadowView.swift in Sources */,
+				9E9FD90F220CD26A00A4B896 /* CreatePostVC.swift in Sources */,
 				9EB3582321FCED4A007D423A /* FeedVC.swift in Sources */,
 				9EB3584421FDC191007D423A /* InsetTextField.swift in Sources */,
 				9EB3583C21FCF076007D423A /* DataService.swift in Sources */,

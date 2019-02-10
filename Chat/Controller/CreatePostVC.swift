@@ -20,6 +20,7 @@ class CreatePostVC: UIViewController {
         super.viewDidLoad()
         
         textView.delegate = self
+        self.sendBtn.bindToKeyboard()
     }
     
     @objc func closeKeyboard() {
